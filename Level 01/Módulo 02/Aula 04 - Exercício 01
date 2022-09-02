@@ -1,0 +1,59 @@
+## Elabore cenários simulando testes na funcionalidade de login do Google (exemplo da imagem abaixo).
+
+<img src=“https://cwi-reset.github.io/edicao-04-level-1/assets/login.png”>
+
+# 01. Cenário passo a passo
+
+<table>
+  <thead>
+    <tr>
+      <th>Ação</th>
+      <th>Resultado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ao acessar o site gmail.com</td>
+      <td>Serei direcionado para tela de login.</td>
+    </tr>
+    <tr>
+      <td>Preencher o campo de email/telefone com uma credencial válida</td>
+      <td>Não deve ocorrer erro.</td>
+    </tr>
+    <tr>
+      <td>Clicar no link "Esqueceu seu e-mail?"</td>
+      <td>Serei direcionado a tela para encontrar meu e-mail.</td>
+    </tr>
+    <tr>
+      <td>Clicar no link "Saiba mais"</td>
+      <td>Serei direcionado a url de central de ajuda do Google.</td>
+    </tr>
+    <tr>
+      <td>Clicar no link "Criar conta"</td>
+      <td>Abre opções para criar uma conta em modo pessoal, criança ou trabalho/empresa.</td>
+    </tr>
+    <tr>
+      <td>Clicar no botão azul na parte inferior direita “Próxima”</td>
+      <td>Devo ser direcionado para a tela de senha.</td>
+    </tr>
+    <tr>
+      <td>Preencher o campo de senha com um valor válido</td>
+      <td>Não deve ocorrer erro.</td>
+    </tr>
+    <tr>
+      <td>Clicar no botão “Próxima”</td>
+      <td>Devo ser direcionado para a aplicação.</td>
+    </tr>
+  </tbody>
+</table>
+
+# 02. Gherkin
+
+<code>Cenário: Acessar o sistema gmail.com
+Dado que acessei a aplicação
+Fui direcionado para o login
+Preencho meus dados de acesso corretamente
+Sou redirecionado para a aplicação
+</code>
+
+## Victor Gomes - 02/09/2022 - 16:11   
