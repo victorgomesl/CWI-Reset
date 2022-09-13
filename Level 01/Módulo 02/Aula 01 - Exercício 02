@@ -1,5 +1,3 @@
-## O que você entende por testes de caixa preta e testes de caixa branca?
-
 # 01. Teste de caixa preta são realizados apenas com entrada e saída
 
 # 02. Teste de caixa branca também temos acesso ao código em questão

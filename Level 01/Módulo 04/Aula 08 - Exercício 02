@@ -1,0 +1,9 @@
+valores = [1, 2, 3, 5, 8, 13, 21, 23, 34, 55]
+
+soma = 0
+for (index = 0; index < valores.length; index++) {
+    soma += valores[index]
+}
+
+media = soma / valores.length
+console.log(media)

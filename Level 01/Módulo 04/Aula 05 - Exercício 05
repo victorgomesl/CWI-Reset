@@ -1,0 +1,4 @@
+lucroBruto = receitaLiquidaVendas - custoProdutosVendidos
+    margemBruta = (lucroBruto / receitaLiquidaVendas) * 100
+
+## Victor Gomes - 13/09/2022 - 09:20 

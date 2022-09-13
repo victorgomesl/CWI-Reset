@@ -1,0 +1,8 @@
+comidas = ["Lasanha", "Massa", "Rosbife", "Alaminuta", "Churrasco"]
+
+do {
+    console.log(comidas[index])
+    index++
+} while (index < comidas.length)
+
+## Victor Gomes - 13/09/2022 - 10:49 
