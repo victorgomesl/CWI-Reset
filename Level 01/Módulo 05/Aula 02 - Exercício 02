@@ -1,0 +1,4 @@
+cy.get('.class').should('contain', 'Texto esperado') // Verifica se o elemento selecionado contém o texto que é esperado.
+
+
+## Victor Gomes - 22/09/2022 - 16:29 

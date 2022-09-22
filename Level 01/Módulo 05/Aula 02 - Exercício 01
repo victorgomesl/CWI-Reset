@@ -1,0 +1,4 @@
+cy.get('#idDoElemento').click() //clique simples
+cy.get('#idDoElemento') // seleciona elemento por seu id
+
+## Victor Gomes - 22/09/2022 - 16:18 
